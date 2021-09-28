@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+header {
+  background-color: #003950; }
+  header .logo a {
+    text-decoration: none; }
+  header .itens ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    header .itens ul li {
+      list-style: none;
+      margin-right: 5px; }
+      header .itens ul li .nav-link {
+        padding: 8px 32px;
+        text-decoration: none; }
+        header .itens ul li .nav-link:hover {
+          background-color: #fff;
+          color: #003950; }
+      header .itens ul li .active {
+        background-color: #fff;
+        color: #003950; }
+
+main .oq_fazemos .services {
+  display: flex;
+  justify-content: space-evenly; }
+  main .oq_fazemos .services .btn-service {
+    display: block;
+    height: 130px;
+    width: 130px;
+    padding: 20px;
+    border: solid 1px black;
+    cursor: pointer; }
+    main .oq_fazemos .services .btn-service:hover {
+      background-color: #e6e6e6; }
+    main .oq_fazemos .services .btn-service img {
+      width: 90px;
+      height: 90px; }
+main .qm_somos .toggle_text {
+  color: #003950;
+  cursor: pointer;
+  font-weight: 900; }
+  main .qm_somos .toggle_text:hover {
+    text-decoration: underline; }
+main .has_error {
+  color: red;
+  font-size: 13px;
+  padding-left: 15px; }
+main form {
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px; }
+  main form label {
+    margin-top: 2px;
+    font-size: 15px;
+    color: #666; }
+  main form .inputUser {
+    display: flex;
+    justify-content: end;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    border: solid 1px #cecece; }
+  main form .with-errors {
+    display: none;
+    color: red;
+    font-size: 13px; }
+
+footer {
+  font-size: 12px;
+  display: flex;
+  justify-content: center; }
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none; }
+  .modal .modal-content {
+    margin: 0 auto;
+    margin-top: 3%;
+    max-width: 600px;
+    background-color: #eee;
+    padding: 0;
+    box-shadow: 0 0 2px #fff; }
+    .modal .modal-content .modal-header h1 {
+      font-weight: bold;
+      text-align: center; }
+    .modal .modal-content .modal-header, .modal .modal-content .modal-body, .modal .modal-content .modal-footer {
+      padding: 10px; }
+    .modal .modal-content .modal-header {
+      background-color: #ccc; }
+    .modal .modal-content .modal-footer {
+      background-color: #ccc; }
+
+/*# sourceMappingURL=app.css.map */
